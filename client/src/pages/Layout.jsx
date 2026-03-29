@@ -1,0 +1,38 @@
+import React, { useState } from 'react'; 
+import { Sidebar, Menu, X } from 'lucide-react'; 
+import { Outlet } from 'react-router-dom';
+import { dummyUserData } from '../assets/assets';
+import Loading from '../components/Loading';
+
+const Layout = () => {
+  const user = dummyUserData;
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  if (!user) {
+    return <Loading />;
+  }
+
+  // If the code reaches this point, it means user data IS present.
+  return (
+    <div className='w-full flex h-screen relative'>
+      <Sidebar />
+      
+      <div className='flex-1 bg-slate-50'>
+        <Outlet />
+      </div>
+
+      {sidebarOpen ? (
+        <X 
+          className='absolute top-3 right-3 p-2 z-50 bg-white rounded-md shadow w-10 h-10 text-gray-600 sm:hidden' 
+          onClick={() => setSidebarOpen(false)} 
+        />
+      ) : (
+        <Menu 
+          className='absolute top-3 right-3 p-2 z-50 bg-white rounded-md shadow w-10 h-10 text-gray-600 sm:hidden' 
+          onClick={() => setSidebarOpen(true)} 
+        />
+      )}
+    </div>
+  ); 
+};
+
+export default Layout;
