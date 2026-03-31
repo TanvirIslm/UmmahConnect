@@ -40,11 +40,9 @@ const Login = () => {
       </div>
       {/* Right sight login form */}
       <div className='flex-1 flex items-center justif-center p-6 sm:p-10'>
-                  <SignIn></SignIn>
-
+        <SignIn></SignIn>
       </div>
     </div>
   )
 }
-
 export default Login;
