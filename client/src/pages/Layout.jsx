@@ -21,20 +21,20 @@ const Layout = () => {
         } transition-transform duration-300 ease-in-out sm:relative sm:translate-x-0 
         bg-white border-r border-slate-200 shadow-xl sm:shadow-none`} 
       >
-        <Sidebar SidebarOpen={setSidebarOpen} setSidebarOpen={setSidebarOpen} />
+        <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       </div>
 
       <div className="flex-1 bg-slate-50 h-full overflow-y-auto">
         <Outlet />
       </div>
 
-      {/* Mobile Toggle Button */}
       <button
         className="absolute top-3 right-3 p-2 z-50 bg-white rounded-md shadow sm:hidden"
         onClick={() => setSidebarOpen(!sidebarOpen)}
       >
         {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
+
       {sidebarOpen && (
         <div
           className="fixed inset-0 bg-black/20 z-30 sm:hidden"
