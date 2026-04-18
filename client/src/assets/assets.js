@@ -26,12 +26,12 @@ export const menuItemsData = [
 export const dummyUserData = {
     "_id": "user_2zdFoZib5lNr614LgkONdD8WG32",
     "email": "admin@example.com",
-    "full_name": "John Warren",
-    "username": "john_warren",
+    "full_name": "Tanvir Islam",
+    "username": "tanvir_islam",
     "bio": "🌍 Dreamer | 📚 Learner | 🚀 Doer\r\nExploring life one step at a time.\r\n✨ Staying curious. Creating with purpose.",
     "profile_picture": sample_profile,
     "cover_photo": sample_cover,
-    "location": "New York, NY",
+    "location": "Barguna, Barishal",
     "followers": ["user_2", "user_3"],
     "following": ["user_2", "user_3"],
     "connections": ["user_2", "user_3"],
@@ -65,8 +65,8 @@ export const dummyStoriesData = [
         "media_url": "",
         "media_type": "text",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:16:06.958Z",
-        "updatedAt": "2025-07-25T08:16:06.958Z",
+        "createdAt": "2026-04-18T08:16:06.958Z",
+        "updatedAt": "2026-04-17T08:16:06.958Z",
     },
     {
         "_id": "688340046e4b42b685068a73",
@@ -75,7 +75,7 @@ export const dummyStoriesData = [
         "media_url": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
         "media_type": "image",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:27:48.134Z",
+        "createdAt": "2026-04-18T08:16:06.958Z",
         "updatedAt": "2025-07-25T08:27:48.134Z",
     },
     {
@@ -85,7 +85,7 @@ export const dummyStoriesData = [
         "media_url": "https://videos.pexels.com/video-files/14447442/14447442-hd_1080_1920_30fps.mp4",
         "media_type": "video",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:27:21.289Z",
+        "createdAt": "2026-04-18T08:16:06.958Z",
         "updatedAt": "2025-07-25T08:27:21.289Z",
     },
     {
@@ -95,7 +95,7 @@ export const dummyStoriesData = [
         "media_url": "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg",
         "media_type": "image",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:19:31.080Z",
+        "createdAt": "2026-04-18T08:16:06.958Z",
         "updatedAt": "2025-07-25T08:19:31.080Z",
     },
     {
@@ -105,8 +105,8 @@ export const dummyStoriesData = [
         "media_url": "",
         "media_type": "text",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:16:48.617Z",
-        "updatedAt": "2025-07-25T08:16:48.617Z",
+        "createdAt": "2026-04-18T08:16:06.958Z",
+        "updatedAt": "2026-04-17T08:16:06.958Z",
     },
     {
         "_id": "68833c9e6e4b42b6850687e7",
@@ -115,8 +115,8 @@ export const dummyStoriesData = [
         "media_url": "",
         "media_type": "text",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:13:18.111Z",
-        "updatedAt": "2025-07-25T08:13:18.111Z",
+        "createdAt": "2026-04-18T08:12:18.111Z",
+        "updatedAt": "2026-04-18T08:13:18.111Z",
     }
 ]
 
